@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ind Assign
+</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+
+<header id="top">
+  <!-- Navigation bar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="aboutme.html">About Me</a>
+    <a href="family.html">Family</a>
+    <a href="education.html">Education</a>
+    <div class="dropdown">
+      <button class="dropbtn">Friends 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="highschool.html">High School</a>
+        <a href="university.html">University</a>
+      </div>
+    </div> 
+    <a href="hobbies.html">Hobbies</a>
+    <a href="personalinterest.html">Personal Interest</a> 
+  </div>
+</header>
+
+
+<br>
+<main>
+
+<center>
+<b><font face="Arial" size="50">EDUCATIONAL BACKGROUND</b></font>
+</center>
+
+<br><br>
+
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+    <img src="image/pasti.png" alt="Pasti" width="40%">
+      <h2>2009-2010 <br>KINDERGATEN</h2>
+      <p> Kindergarten is my first step into the school world after home. I went to Pusat Asuhan Tunas Islam (PASTI). When I was studying there, my mother was also a teacher at that kindergarten. So, I am lucky to have received education from other teachers and from my mother. </p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+    <img src="image/skkru.jpg" alt="Sekolah Kebangsaan Kampung Raja Uda" width="40%">
+      <h2>2011-2016 <br> PRIMARY SCHOOL</h2>
+      <p>I finished primary school at Sekolah Kebangsaan Kampung Raja Uda. The school is near my grandparents house. I studied there from Grade 1 to Grade 5 and took my UPSR examinations there.  </p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+    <img src="image/smkrl.jpg" alt="Sekolah Menengah Kebangsaan Raja Lumu" width="40%">
+    <img src="image/smkrl(2).jpg" alt="High School" width=50%">
+      <h2>2017-2022 <br> HIGH SCHOOL</h2>
+      <p>I went to high school near my house, Sekolah Menengah Kebangsaan Raja Lumu, Pelabuhan Klang. It is a normal school whose students are made up of various races, including Malays, Indians, and Chinese. I've studied there from Form 1 to Form 5, and I also took my PT3 and SPM examinations there.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+    <img src="image/uitmlogo.png" alt="University Teknologi Mara" width=60%">
+      <h2>2022-2024 <br> UNIVERSITY</h2>
+      <p>Now, I am pursuing my studies to gain more knowledge at Universiti Teknologi Mara, Kedah. Library informatics is the course that I took for my diploma. This course is an expanding field at the intersection of information science and technology; it's not just about books and shelves. In the current digital era, it includes arranging, maintaining, and sharing information in a variety of formats.</p>
+    </div>
+  </div>
+ </div>
+
+
+<br><br>
+
+<center>
+--I am currently in year 2 of my studies at UiTM Kedah.--
+<br><br>
+
+<div class="slideshow-container">
+  <!-- Slideshow 1 -->
+  <div class="mySlides fade">
+    <img src="image/uitmkedah.png" style="width:80%">
+  </div>
+  <div class="mySlides fade">
+    <img src="image/uitmkedah(2).jpg" style="width:80%">
+  </div>
+  <div class="mySlides fade">
+    <img src="image2/classmate(2).jpg" style="width:80%">
+  </div>
+
+<div class="mySlides fade">
+    <img src="image/classmate.jpg" style="width:80%">
+  </div>
+</div>
+<br>
+
+<center>
+<a href="#top"><img src="image/up.png" height="30px"></a>
+</center>
+
+</main>
+
+<script>
+let slideIndex1 = 0;
+let slideIndex2 = 0;
+showSlides1();
+showSlides2();
+
+function showSlides1() {
+  let i;
+  let slides1 = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides1.length; i++) {
+    slides1[i].style.display = "none";  
+  }
+  slideIndex1++;
+  if (slideIndex1 > slides1.length) {slideIndex1 = 1}    
+  slides1[slideIndex1-1].style.display = "block";  
+  setTimeout(showSlides1, 2000); // Change image every 2 seconds
+}
+
+function showSlides2() {
+  let i;
+  let slides2 = document.getElementsByClassName("mySlides2");
+  for (i = 0; i < slides2.length; i++) {
+    slides2[i].style.display = "none";  
+  }
+  slideIndex2++;
+  if (slideIndex2 > slides2.length) {slideIndex2 = 1}    
+  slides2[slideIndex2-1].style.display = "block";  
+  setTimeout(showSlides2, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<footer>
+<p class="footer" style="background-color: #dec3c3">
+<b>CONTACT</b>
+<br><br>
+Tel: +60 014-506 1430
+<br>
+<a href="mailto:2022820722@student.uitm.edu.my" target="_blank">
+<img src="image/email.png" width="30px"></a>
+
+<a href="https://www.instagram.com/mie.ka_?igsh=MTVhMjVha21zOWliZw==" target="_blank">
+<img src="image/instagram.png" width="30px"></a>
+
+<a href="https://x.com/Juymieka?t=UUkG_2ajeCDVNjJQW2eJrA&s=09" target="_blank">
+<img src="image/x.png" width="30px"></a>
+</footer>
+
+<center>
+© 2024. All rights reserved.          <b>Last Updated:</b> May 25, 2024 18:14 PM 
+</center>
+
+</body>
+</html>
